@@ -1,0 +1,181 @@
+<html lang="en" class=" js no-touch cssanimations csstransitions"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon.ico">
+<title>Hotspot Login | Yayasan Dompet Dhuafa Republika</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/main.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/animate-custom.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <style type="text/css">
+
+    .nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+          color: #000;
+          cursor: default;
+          background-color: #fff;
+          border: 1px solid #fff;
+          border-bottom-color: transparent;
+      }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+          color: #fff;
+          cursor: default;
+          background-color: #2BAD4C;
+          border: 1px solid #2BAD4C;
+          border-bottom-color: transparent;
+      }
+  </style>
+
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main" style="" data-new-gr-c-s-check-loaded="14.1156.0" data-gr-ext-installed="">
+$(if chap-id)
+  <form name="sendin" method="POST" action="">
+    <input type="hidden" name="_token" value="gnyn27f5bCCg7J7X0E87n6fs922No79y58cSERBP">    <input type="hidden" name="username">
+    <input type="hidden" name="password">
+    <input type="hidden" name="dst" value="https://all.accor.com/hotel/9185/index.en.shtml">
+    <input type="hidden" name="action" value="http://ibis.hotspot">
+    <input type="hidden" name="site_base_url" value="ibis_budget_bandung">
+    <input type="hidden" name="id_site" value="28">
+    <input type="hidden" name="popup" value="true">
+  </form>
+$(endif)
+<div id="navbar-main"> 
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> -->
+        <a class="navbar-brand" href="#home"><img src="./img/dompet-dhuafa-putih-web (1).png" class="img-responsive" style="margin-top: -24px;height:60px;"></a> </div>
+      <!-- <div class="navbar-collapse collapse"> -->
+        <ul class="nav navbar-nav navbar-right">
+          <!-- <li><a href="./">Log In</a></li> -->
+        </ul>
+      <!-- </div> -->
+      <!--/.nav-collapse --> 
+    </div>
+  </div>
+</div>
+
+<!-- ==== HEADERWRAP ==== -->
+<div id="headerwrap" name="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-md-offset-7">
+        <div>
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#inhouseguest" aria-controls="inhouseguest" role="tab" data-toggle="tab">In-house Guest</a></li>
+            <li role="presentation" class=""><a href="#visitor" aria-controls="visitor" role="tab" data-toggle="tab">Visitor</a></li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="inhouseguest">
+              <form id="contact" name="login" method="POST" action="https://dashboard.centrin.net.id/portal/action_redirect" class="form" role="form" $(if="" chap-id)="" $(endif)="">
+                <input type="hidden" name="_token" value="gnyn27f5bCCg7J7X0E87n6fs922No79y58cSERBP">                <input type="hidden" name="dst" value="https://all.accor.com/hotel/9185/index.en.shtml">
+                <input type="hidden" name="action" value="http://ibis.hotspot">
+                <input type="hidden" name="site_base_url" value="ibis_budget_bandung">
+                <input type="hidden" name="popup" value="true">
+                <input type="hidden" name="id_site" value="28">
+                <h4>Please log in and enjoy our free Wi-Fi</h4>
+                <!-- $(if trial == 'yes')Free trial available, <a style="color: #00A1EE"href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">click here</a>.$(endif) -->
+                <br>
+                <div class="row">
+                                    <div class="col-xs-12 col-md-12 form-group">
+                    <input class="form-control" id="username" name="username" placeholder="Enter Room No. " type="text" required="" autocomplete="off">
+                    <!-- <input class="form-control" id="username" name="username" placeholder="Enter Room No. " type="text" required /> -->
+                  </div>
+                  <div class="col-xs-12 col-md-12 form-group">
+                    <input class="form-control" id="email" name="password" placeholder="Email " type="text" required="" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
+                    <!-- <input id="email" name="email" placeholder="Password" type="hidden" required /> -->
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-md-12">
+                    <input id="doSubmitLogin" class="btn btn btn-lg" name="dologin" type="submit" value="Login"><br><br>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="visitor">
+              <form id="contact" name="login" method="POST" action="https://dashboard.centrin.net.id/portal/action_redirect" class="form" role="form" $(if="" chap-id)="" $(endif)="">
+                <input type="hidden" name="_token" value="gnyn27f5bCCg7J7X0E87n6fs922No79y58cSERBP">                <input type="hidden" name="dst" value="https://all.accor.com/hotel/9185/index.en.shtml">
+                <input type="hidden" name="action" value="http://ibis.hotspot">
+                <input type="hidden" name="site_base_url" value="ibis_budget_bandung">
+                <input type="hidden" name="popup" value="true">
+                <input type="hidden" name="id_site" value="28">
+                <h4>Please log in and enjoy our free Wi-Fi</h4>
+                <!-- $(if trial == 'yes')Free trial available, <a style="color: #00A1EE"href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">click here</a>.$(endif) -->
+                <br>
+                <div class="row">
+                  <div class="col-xs-12 col-md-12 form-group">
+                    <input class="form-control" id="username2" name="username" placeholder="Access Code" type="text" required="" autocomplete="off">
+                    <!-- <input class="form-control" id="username" name="username" placeholder="Enter Room No. " type="text" required /> -->
+                  </div>
+                  <div class="col-xs-12 col-md-12 form-group">
+                    <input class="form-control" id="email2" name="password" placeholder="Email " type="text" required="" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
+                    <!-- <input id="email" name="email" placeholder="Password" type="hidden" required /> -->
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-md-12">
+                    <button class="btn btn btn-lg" name="dologin2" type="submit">Login</button><br><br>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /headerwrap --> 
+
+<div id="footerwrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        Yayasan Dompet Dhuafa Republika<br>
+        Philanthropy Building Jl. Warung Jati Barat No.14 Jakarta Selatan 12540, Indonesia <br/>  WA: 6281115444889 | customercare@dompetdhuafa.org
+      </div>
+
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li><a href="https://twitter.com/ibisbudgetbdg"><i class="fa fa-twitter"></i></a> </li>
+          <li><a href="https://www.facebook.com/ibisbudgetbandungasiaafrika"><i class="fa fa-facebook"></i></a> </li>
+          <li><a href="https://www.instagram.com/ibisbudgetbandung"><i class="fa fa-instagram"></i></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/modernizr.custom.js"></script>
+<script type="text/javascript" src="https://dashboard.centrin.net.id/site-template/ibis_budget_bandung/md5.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="./js/jquery.easing.1.3.js"></script> 
+<script type="text/javascript" src="./js/smoothscroll.js"></script> 
+<script type="text/javascript" src="./js/jquery-func.js"></script>
+<script type="text/javascript" src="./js/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+</html>
