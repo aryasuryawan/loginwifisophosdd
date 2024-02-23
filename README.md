@@ -8,7 +8,8 @@ Halaman Login ini dibuat sebagai HTML Template Login Portal Internet Sophos. Nan
 ![image](https://github.com/aryasuryawan/loginwifisophosdd/assets/28218735/02ea5f44-30a4-4ade-aa49-a89e4533243c)
 
 Bila tambah news feed dari website
-![Uploading image.png…]()
+![image](https://github.com/aryasuryawan/loginwifisophosdd/assets/28218735/b8fc771a-d6ee-45d2-a566-7bc3ca6c0f53)
+
 
 
 Bootsrap 3
