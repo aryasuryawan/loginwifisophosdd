@@ -43,13 +43,9 @@
 <body data-spy="scroll" data-offset="0" data-target="#navbar-main" style="" data-new-gr-c-s-check-loaded="14.1156.0" data-gr-ext-installed="">
 $(if chap-id)
   <form name="sendin" method="POST" action="">
-    <input type="hidden" name="_token" value="gnyn27f5bCCg7J7X0E87n6fs922No79y58cSERBP">    <input type="hidden" name="username">
+    <input type="hidden" name="_token" value="gnyn27f5bCCg7J7X0E87n6fs922No79y58cSERBP">    
+    <input type="hidden" name="username">
     <input type="hidden" name="password">
-    <input type="hidden" name="dst" value="https://all.accor.com/hotel/9185/index.en.shtml">
-    <input type="hidden" name="action" value="http://ibis.hotspot">
-    <input type="hidden" name="site_base_url" value="ibis_budget_bandung">
-    <input type="hidden" name="id_site" value="28">
-    <input type="hidden" name="popup" value="true">
   </form>
 $(endif)
 <div id="navbar-main"> 
@@ -78,62 +74,47 @@ $(endif)
 
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#inhouseguest" aria-controls="inhouseguest" role="tab" data-toggle="tab">In-house Guest</a></li>
-            <li role="presentation" class=""><a href="#visitor" aria-controls="visitor" role="tab" data-toggle="tab">Visitor</a></li>
+            <li role="presentation" class="active"><a href="#inhouseguest" aria-controls="inhouseguest" role="tab" data-toggle="tab">Karyawan</a></li>
+            <li role="presentation" class=""><a href="#visitor" aria-controls="visitor" role="tab" data-toggle="tab">Pengunjung</a></li>
           </ul>
 
           <!-- Tab panes -->
           <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="inhouseguest">
-              <form id="contact" name="login" method="POST" action="https://dashboard.centrin.net.id/portal/action_redirect" class="form" role="form" $(if="" chap-id)="" $(endif)="">
-                <input type="hidden" name="_token" value="gnyn27f5bCCg7J7X0E87n6fs922No79y58cSERBP">                <input type="hidden" name="dst" value="https://all.accor.com/hotel/9185/index.en.shtml">
-                <input type="hidden" name="action" value="http://ibis.hotspot">
-                <input type="hidden" name="site_base_url" value="ibis_budget_bandung">
-                <input type="hidden" name="popup" value="true">
-                <input type="hidden" name="id_site" value="28">
-                <h4>Please log in and enjoy our free Wi-Fi</h4>
-                <!-- $(if trial == 'yes')Free trial available, <a style="color: #00A1EE"href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">click here</a>.$(endif) -->
-                <br>
+              <form id="contact" name="login" method="POST" action="" class="form" role="form" $(if="" chap-id)="" $(endif)="">
+                <h4>Silahkan login. Gunakan koneksi ini dengan bijak!</h4>        
                 <div class="row">
-                                    <div class="col-xs-12 col-md-12 form-group">
-                    <input class="form-control" id="username" name="username" placeholder="Enter Room No. " type="text" required="" autocomplete="off">
-                    <!-- <input class="form-control" id="username" name="username" placeholder="Enter Room No. " type="text" required /> -->
-                  </div>
+                    <div class="col-xs-12 col-md-12 form-group">
+                      <input class="form-control" id="username" name="username" placeholder="Masukan email anda " type="text" required="" autocomplete="off">
+                    </div>
                   <div class="col-xs-12 col-md-12 form-group">
-                    <input class="form-control" id="email" name="password" placeholder="Email " type="text" required="" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
-                    <!-- <input id="email" name="email" placeholder="Password" type="hidden" required /> -->
+                    <input class="form-control" id="password" name="password" placeholder="Password " type="text" required="" >
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-xs-12 col-md-12">
                     <input id="doSubmitLogin" class="btn btn btn-lg" name="dologin" type="submit" value="Login"><br><br>
+                    Untuk kendala dan permintaan akses <a href="http://ticket.dompetdhuafa.org/support/">http://ticket.dompetdhuafa.org/support/</a>
                   </div>
                 </div>
               </form>
             </div>
             <div role="tabpanel" class="tab-pane" id="visitor">
-              <form id="contact" name="login" method="POST" action="https://dashboard.centrin.net.id/portal/action_redirect" class="form" role="form" $(if="" chap-id)="" $(endif)="">
-                <input type="hidden" name="_token" value="gnyn27f5bCCg7J7X0E87n6fs922No79y58cSERBP">                <input type="hidden" name="dst" value="https://all.accor.com/hotel/9185/index.en.shtml">
-                <input type="hidden" name="action" value="http://ibis.hotspot">
-                <input type="hidden" name="site_base_url" value="ibis_budget_bandung">
-                <input type="hidden" name="popup" value="true">
-                <input type="hidden" name="id_site" value="28">
-                <h4>Please log in and enjoy our free Wi-Fi</h4>
-                <!-- $(if trial == 'yes')Free trial available, <a style="color: #00A1EE"href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">click here</a>.$(endif) -->
-                <br>
-                <div class="row">
+              <form id="contact" name="login" method="POST" action="" class="form" role="form" $(if="" chap-id)="" $(endif)="">
+                <h4>Silahkan login. Gunakan koneksi ini dengan bijak!</h4>
+              <div class="row">
                   <div class="col-xs-12 col-md-12 form-group">
-                    <input class="form-control" id="username2" name="username" placeholder="Access Code" type="text" required="" autocomplete="off">
-                    <!-- <input class="form-control" id="username" name="username" placeholder="Enter Room No. " type="text" required /> -->
+                    <input class="form-control" id="username2" name="username" placeholder="Masukan email anda" type="text" required="" autocomplete="off">
+                    
                   </div>
                   <div class="col-xs-12 col-md-12 form-group">
-                    <input class="form-control" id="email2" name="password" placeholder="Email " type="text" required="" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
-                    <!-- <input id="email" name="email" placeholder="Password" type="hidden" required /> -->
+                    <input class="form-control" id="password" name="password" placeholder="Password " type="text" required="" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-xs-12 col-md-12">
                     <button class="btn btn btn-lg" name="dologin2" type="submit">Login</button><br><br>
+                    Untuk kendala dan permintaan akses h<a href="http://ticket.dompetdhuafa.org/support/">http://ticket.dompetdhuafa.org/support/</a>
                   </div>
                 </div>
               </form>
@@ -157,9 +138,9 @@ $(endif)
 
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
-          <li><a href="https://twitter.com/ibisbudgetbdg"><i class="fa fa-twitter"></i></a> </li>
-          <li><a href="https://www.facebook.com/ibisbudgetbandungasiaafrika"><i class="fa fa-facebook"></i></a> </li>
-          <li><a href="https://www.instagram.com/ibisbudgetbandung"><i class="fa fa-instagram"></i></a> </li>
+          <li><a href="https://www.youtube.com/user/DhuafaDompet/"><i class="fa fa-youtube"></i></a> </li>
+          <li><a href="https://www.facebook.com/DompetDhuafaID/"><i class="fa fa-facebook"></i></a> </li>
+          <li><a href="https://www.instagram.com/dompetdhuafaorg"><i class="fa fa-instagram"></i></a> </li>
         </ul>
       </div>
     </div>
@@ -168,14 +149,52 @@ $(endif)
 
 <!-- Bootstrap core JavaScript
     ================================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
+<!-- taruh dibawah aja biar lebih cepet loadnya --> 
 <script src="./js/jquery.min.js"></script>
 <script type="text/javascript" src="./js/modernizr.custom.js"></script>
-<script type="text/javascript" src="https://dashboard.centrin.net.id/site-template/ibis_budget_bandung/md5.js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script> 
 <script type="text/javascript" src="./js/jquery.easing.1.3.js"></script> 
 <script type="text/javascript" src="./js/smoothscroll.js"></script> 
 <script type="text/javascript" src="./js/jquery-func.js"></script>
+
 <script type="text/javascript" src="./js/jquery.backstretch.min.js"></script>
-<script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" >
+  function findBootstrapEnvironment() {
+    var envs = ['xs', 'sm', 'md', 'lg'];
+
+    var $el = $('<div>');
+    $el.appendTo($('body'));
+
+    for (var i = envs.length - 1; i >= 0; i--) {
+        var env = envs[i];
+
+        $el.addClass('hidden-'+env);
+        if ($el.is(':hidden')) {
+            $el.remove();
+            return env;
+        }
+    }
+}
+
+jQuery(document).ready(function() {
+	
+    /*
+        Fullscreen background
+    */
+
+    if (findBootstrapEnvironment() == 'xs' || findBootstrapEnvironment() == 'sm') {
+        $.backstretch([
+            "img/2.jpeg"
+         ], {duration: 3000, fade: 750});
+    } else {
+        $.backstretch([
+            "img/1.jpg",
+            "img/2.jpeg",
+            "img/3.jpg",
+            "img/4.jpeg"
+         ], {duration: 3000, fade: 750});
+    }
+    
+});
+</script>
 </html>
