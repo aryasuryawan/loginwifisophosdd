@@ -621,7 +621,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	border-radius: 50%;
 	z-index: 10px;
 	cursor: pointer;
-	background-color: #fff;
+	/* background-color: #fff; */
 	font-size: 18px;
   }
   .btnslide:active {
